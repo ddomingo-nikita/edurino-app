@@ -1,0 +1,35 @@
+.task-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    position: relative;
+    margin-left: 10%;
+}
+
+.equation{
+    color: var(--secondary-accent-color);
+    margin: 0;
+    font-size: 150px;
+}
+
+.solutions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.solution{
+    background-image: url("src/assets/background/game_option_button.svg");
+    background-color: transparent;
+    color: var(--primary-accent-color);
+    font-weight: bold;
+    font-size: 90px;
+    width: 400px!important;
+}
+
+.solution:hover{
+    cursor: pointer;
+}

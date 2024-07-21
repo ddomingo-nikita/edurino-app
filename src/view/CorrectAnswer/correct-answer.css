@@ -1,0 +1,32 @@
+.voucher{
+    background-image: url("src/assets/background/qr_code_back.svg");
+    width: 925px;
+    height: 620px;
+    font-weight: bold;
+}
+
+.voucher span{
+    color: var(--secondary-accent-color)
+}
+
+.qr-code{
+    width: 350px;
+    height: 350px;
+    z-index: 11;
+}
+
+.char-right{
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    z-index: 12;
+    transform: scale(1.1);
+}
+
+.char-left{
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    z-index: 12;
+    transform: scale(1.1);
+}

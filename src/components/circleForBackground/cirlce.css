@@ -1,0 +1,6 @@
+.circle{
+    background-color: var(--normal-color);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
